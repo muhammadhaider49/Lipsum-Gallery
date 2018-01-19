@@ -41,12 +41,9 @@ header{
     border: 2px solid darkgrey;
 }
 
-.hero h1{
-    margin-left:35%;
-    padding-top: 5%;
-} 
 .hero p{
-    margin-left:35%;
+    /* margin-left:35%; */
+    text-align: center;
 }
 .belowHero{
     height: 150px;
@@ -93,7 +90,6 @@ footer{
 }
 .h3-align{
     padding-left: 45%;
-   
 }
 footer li,a{
     list-style: none;

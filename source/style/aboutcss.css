@@ -1,0 +1,18 @@
+
+.section-heading{
+    width: 100%;
+}
+
+.section-main-wrap{
+display: flex;
+}
+
+.section-wrap1{
+    margin-left: 2%;
+    width: 60%;
+}
+
+.section-wrap2{
+    width: 90%;
+    margin: auto;
+}
