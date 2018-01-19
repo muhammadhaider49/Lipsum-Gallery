@@ -1,0 +1,18 @@
+.main-wrapper{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.pop-up{
+    background: green;
+    width: 43%;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.input-width{
+    width: 30%;
+}
