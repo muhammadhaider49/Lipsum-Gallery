@@ -8,11 +8,10 @@
     <title>Lipsum Gallery </title>
     <link rel="stylesheet" href="source\style\index.css">
     <style>
-    
-.hero h1{
-    margin-left:35%;
-    padding-top: 5%;
-} 
+        .hero h1 {
+            margin-left: 35%;
+            padding-top: 5%;
+        }
     </style>
 </head>
 
@@ -21,28 +20,37 @@
         <div class="upperHeader">
             <img src="source\media\icon\internet.png" alt="earth" style="width:20px; height:20px; margin-left:2%;">
             <span style="margin-left:1%;">Language</span>
-            <a href="index.html" style="color:black; padding-left:1%;">Home (page 1)</a>
-            <span>
-                <a href="about.html" style="color:black; padding-left:1%;">About us(page 2)</a>
-            </span>
-            <a href="contact.html" style="color:black; padding-left:1%;">Contact us(page 3)</a>
-            <img src="source\media\icon\facebook.png" alt="facebook icon" style="margin-left:50%">
-            <img src="source\media\icon\instagram.png" alt="instagram icon">
+            <a href="https://www.facebook.com/">
+                <img src="source\media\icon\facebook.png" alt="facebook icon" style="margin-left:80%">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="source\media\icon\instagram.png" alt="instagram icon">
+            </a>
         </div>
         <header>
 
             <h2>Lipsum Gallery</h2>
-            <input type="text" placeholder="Search" id="searchBar" style="margin-left:20%;">
-            <button id="icon">
+            <input type="text" placeholder="Search" id="searchBar" class="marginfromtop" style="margin-left:20%;">
+            <a id="icon" href="#" class="marginfromtop">
                 <img src="source\media\icon\magnifying-glass.png" alt="search icon" id="searchIcon">
-            </button>
-            <button class="headerButton" style="margin-left:10%;">Home</button>
-            <button class="headerButton">Gallery</button>
-            <button class="headerButton">Services</button>
-            <button class="headerButton"> About</button>
+            </a>
+            <div class="headerButton marginfromtop" style="margin-left:10%;">
+                <a href="index.html" style="color:blue;">Home*</a>
+            </div>
+            <div class="headerButton marginfromtop">
+                <a href="#">Gallery</a>
+            </div>
+            <div class="headerButton marginfromtop">
+                <a href="">Services</a>
+            </div>
+            <div class="headerButton marginfromtop">
+                <a href="about.html"> About*</a>
+            </div>
+            <div class="headerButton marginfromtop">
+                <a href="contact.html"> contact us*</a>
+            </div>
 
         </header>
-
         <div class="hero">
             <h1>Welcome to lipsum Gallery</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
