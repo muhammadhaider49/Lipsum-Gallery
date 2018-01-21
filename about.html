@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
-    <link rel="stylesheet" href="source\style\index.css">
-    <link rel="stylesheet" href="source\style\aboutcss.css">
+    <link rel="stylesheet" href="source/style/index.css">
+    <link rel="stylesheet" href="source/style/aboutcss.css">
+    <link rel="stylesheet" href="source/style/footer.css">
     <style>
         .hero h1 {
             padding-top: 1%;
@@ -18,21 +19,21 @@
 <body>
     <div class="container">
         <div class="upperHeader">
-            <img src="source\media\icon\internet.png" alt="earth" style="width:20px; height:20px; margin-left:2%;">
-            <span style="margin-left:1%;">Language</span>
+            <img src="source/media/icon/language.png" alt="earth" style="width:15px; height:15px; margin-left:2%;">
+            <span>Language</span>
             <a href="https://www.facebook.com/">
-                <img src="source\media\icon\facebook.png" alt="facebook icon" style="margin-left:80%">
+                <img src="source/media/icon/facebook.png" alt="facebook icon" style="margin-left:80%; padding-top:10px;">
             </a>
             <a href="https://www.instagram.com/">
-                <img src="source\media\icon\instagram.png" alt="instagram icon">
+                <img src="source/media/icon/instagram.png" alt="instagram icon">
             </a>
         </div>
         <header>
 
             <h2>Lipsum Gallery</h2>
-            <input type="text" placeholder="Search" id="searchBar" class="marginfromtop" style="margin-left:20%;">
+            <input type="text" placeholder="Search" id="searchBar" class="marginfromtop" maxlength="47" style="margin-left:20%;">
             <a id="icon" href="#" class="marginfromtop">
-                <img src="source\media\icon\magnifying-glass.png" alt="search icon" id="searchIcon">
+                <img src="source/media/icon/magnifying-glass.png" alt="search icon" id="searchIcon">
             </a>
             <div class="headerButton marginfromtop" style="margin-left:10%;">
                 <a href="index.html">Home*</a>
@@ -59,7 +60,7 @@
         <section>
             <h2 style="text-align:center;">Our Story</h2>
             <div class="section-main-wrap">
-                <img src="source\media\pictures\images4.duckduckgo.com.jpg" alt="random image" style="width:350px; height: 350px; margin-left:6%;">
+                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="random image" style="width:350px; height: 350px; margin-left:6%;">
                 <div class="section-wrap1">
                     <h3>Get started in no time</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vel soluta quae recusandae quasi quidem
@@ -108,63 +109,65 @@
         </section>
     </div>
     <div class="belowArticle">
-        <span class="BA">Need a
-            <b>quote</b>?
-            <b>Contact</b> us at
-            <a href="#" style="color:black;">Contact@example.com</a>
-        </span>
+        <div class="upperfooter">
+            <span>Need a
+                <b>quote</b>?
+                <b>Contact</b> us at
+                <a href="#" style="color:black;">Contact@example.com</a>
+            </span>
+        </div>
     </div>
-    <footer>
-        <div class=" footer-div">
-            <h3>About Lipsum Gallery</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore assumenda amet velit aperiam quas doloremque,
-                asperiores sit sed voluptates nisi soluta ullam alias nulla, nam impedit atque, quaerat voluptatibus.
-                <a href="#" style="color:blue; text-decoration: none;">Read more</a>
-            </p>
-        </div>
-        <div class=" footer-div">
-            <h3 class=" h3-align">Services</h3>
-            <ul>
-                <li>
-                    <a href="#">Service 1</a>
-                </li>
-                <li>
-                    <a href="#">Service 2</a>
-                </li>
-                <li>
-                    <a href="#">Service 3</a>
-                </li>
-                <li>
-                    <a href="#">Service 4</a>
-                </li>
-            </ul>
-        </div>
-        <div class=" footer-div">
-            <h3 class=" h3-align">Links</h3>
-            <ul>
-                <li>
-                    <a href="#">Link 1</a>
-                </li>
-                <li>
-                    <a href="#">Link 2</a>
-                </li>
-                <li>
-                    <a href="#">Link 3</a>
-                </li>
-            </ul>
-        </div>
-        <div class=" footer-div">
-            <h3>Newsletter</h3>
-            <p>Subscribe to newsletter.</p>
-            <form action="psot">
-                <input type="text" name="Email" id="sub" placeholder="Email">
-            </form>
-            <button>Subscribe</button>
-        </div>
-    </footer>
-    <div class="copyright">
-        <p style="padding-left:40%;">Copyright &copy; 2016 Lipsum gallery. All rights reserved.</p>
+<footer>
+    <div class=" footer-div">
+        <h3>About Lipsum Gallery</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore assumenda amet velit aperiam quas doloremque,
+            asperiores sit sed voluptates nisi soluta ullam alias nulla, nam impedit atque, quaerat voluptatibus.
+            <a href="#" style="color:blue; text-decoration: none;">Read more</a>
+        </p>
     </div>
+    <div class=" footer-div" style="text-align: center;">
+        <h3 class=" h3-align">Services</h3>
+        <ul>
+            <li>
+                <a href="#">Service 1</a>
+            </li>
+            <li>
+                <a href="#">Service 2</a>
+            </li>
+            <li>
+                <a href="#">Service 3</a>
+            </li>
+            <li>
+                <a href="#">Service 4</a>
+            </li>
+        </ul>
+    </div>
+    <div class=" footer-div" style="text-align: center;">
+        <h3 class=" h3-align">Links</h3>
+        <ul>
+            <li>
+                <a href="#">Link 1</a>
+            </li>
+            <li>
+                <a href="#">Link 2</a>
+            </li>
+            <li>
+                <a href="#">Link 3</a>
+            </li>
+        </ul>
+    </div>
+    <div class=" footer-div">
+        <h3>Newsletter</h3>
+        <p>Subscribe to newsletter.</p>
+        <form action="psot">
+            <input type="text" name="Email" id="sub" placeholder="Email">
+        </form>
+        <button>Subscribe</button>
+    </div>
+</footer>
+<div class="copyright">
+    <p>Copyright &copy; 2016 Lipsum gallery. All rights reserved.</p>
+</div>
 </body>
 
 </html>
