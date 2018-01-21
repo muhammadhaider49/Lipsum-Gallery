@@ -4,6 +4,7 @@ a:hover{
 .upperHeader {
     height: 50px;
     border: 2px solid darkgrey;
+
 }
 
 .headerIcon {
@@ -48,7 +49,6 @@ header {
     height: 30px;
     width: 250px;
     border-right: none;
-    /* border: blue; */
 }
 
 .marginfromtop {
@@ -82,9 +82,20 @@ header {
 }
 
 .belowHero {
-    height: 150px;
-    background-color: lightgray;
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 170px;
+    max-height: 170px;
+    background-color: lightgrey;
+    border:2px solid darkgrey;
+}
+.picture{
+    margin-top: 20px;
+    margin-left: 80px;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
 }
 
 .circle {
@@ -120,37 +131,3 @@ header {
     font-size: 30px;
 }
 
-footer {
-    display: flex;
-    width: 97%;
-    background-color: rgba(29, 27, 27, 0.712);
-    font-size: 20px;
-    padding-left: 3%;
-    flex-wrap: wrap;
-}
-
-.h3-align {
-    padding-left: 45%;
-}
-
-footer li,
-a {
-    list-style: none;
-    /* text-decoration: none; */
-    text-align: center;
-    color: white;
-}
-
-.footer-div {
-    width: 24%;
-    padding-left: 1%;
-    color: white;
-    /* border-right: 2px  solid blue; */
-}
-
-.copyright {
-    width: 100%;
-    height: 60px;
-    background-color: rgba(29, 27, 27, 0.712);
-    border-top: 3px solid blue;
-}
