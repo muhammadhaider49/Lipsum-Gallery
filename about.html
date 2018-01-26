@@ -19,24 +19,31 @@
 <body>
     <div class="container">
         <div class="upperHeader">
-            <img src="source/media/icon/language.png" alt="earth" style="width:15px; height:15px; margin-left:2%;">
-            <span>Language</span>
-            <a href="https://www.facebook.com/">
-                <img src="source/media/icon/facebook.png" alt="facebook icon" style="margin-left:80%; padding-top:10px;">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="source/media/icon/instagram.png" alt="instagram icon">
-            </a>
+            <div class="header1">
+                <img src="source/media/icon/internet.png" alt="earth" style="width:20px; height:20px; padding-left:2%;">
+                <span style="margin-left:1%;">Language</span>
+            </div>
+            <div class="header2">
+                <a href="https://www.facebook.com/" class="facebookIcon">
+                    <img src="source/media/icon/facebook.png" alt="facebook icon">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="source/media/icon/instagram.png" alt="instagram icon" class="instaIcon">
+                </a>
+            </div>
         </div>
-        <header>
-
-            <h2>Lipsum Gallery</h2>
-            <input type="text" placeholder="Search" id="searchBar" class="marginfromtop" maxlength="47" style="margin-left:20%;">
-            <a id="icon" href="#" class="marginfromtop">
-                <img src="source/media/icon/magnifying-glass.png" alt="search icon" id="searchIcon">
-            </a>
-            <div class="headerButton marginfromtop" style="margin-left:10%;">
-                <a href="index.html">Home*</a>
+        <header class="mainHeader">
+            <div style="margin-left:2%;">
+                <h2>Lipsum Gallery</h2>
+            </div>
+            <div class="searchDiv">
+                <input type="text" placeholder="Search" id="searchBar" class="marginfromtop">
+                <a id="icon" href="#" class="marginfromtop">
+                    <img src="source/media/icon/magnifying-glass.png" alt="search icon" id="searchIcon">
+                </a>
+            </div>
+            <div class="headerButton marginfromtop">
+                <a href="index.html" style="color:blue;">Home*</a>
             </div>
             <div class="headerButton marginfromtop">
                 <a href="#">Gallery</a>
@@ -45,25 +52,25 @@
                 <a href="">Services</a>
             </div>
             <div class="headerButton marginfromtop">
-                <a href="about.html" style="color:blue;"> About*</a>
+                <a href="about.html"> About*</a>
             </div>
             <div class="headerButton marginfromtop">
                 <a href="contact.html"> contact us*</a>
             </div>
-
+        
         </header>
-        <div class="hero" style="height:7%;  text-align: center;">
+        <div class="hero" style="height:7%;">
             <h1>About Lipsum</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
         <section>
-            <h2 style="text-align:center;">Our Story</h2>
+            <h2 >Our Story</h2>
             <div class="section-main-wrap">
-                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="random image" style="width:350px; height: 350px; margin-left:6%;">
+                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="random image" class="story-pic" >
                 <div class="section-wrap1">
                     <h3>Get started in no time</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vel soluta quae recusandae quasi quidem
+                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vel soluta quae recusandae quasi quidem
                         iste quaerat porro voluptates laudantium possimus error, fugit, delectus ex? Nemo aliquid ullam ab
                         maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aperiam fugit voluptate
                         animi iure facilis alias libero nihil repudiandae! Atque mollitia, provident tenetur quia modi obcaecati
@@ -109,16 +116,14 @@
         </section>
     </div>
     <div class="belowArticle">
-        <div class="upperfooter">
-            <span>Need a
-                <b>quote</b>?
-                <b>Contact</b> us at
-                <a href="#" style="color:black;">Contact@example.com</a>
-            </span>
-        </div>
+        <span>Need a
+            <b>quote</b>?
+            <b>Contact</b> us at
+            <a href="#" style="color:black;">Contact@example.com</a>
+        </span>
     </div>
 <footer>
-    <div class=" footer-div">
+    <div class=" footer-div inline">
         <h3>About Lipsum Gallery</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore assumenda amet velit aperiam quas doloremque,
             asperiores sit sed voluptates nisi soluta ullam alias nulla, nam impedit atque, quaerat voluptatibus.
@@ -156,18 +161,18 @@
             </li>
         </ul>
     </div>
-    <div class=" footer-div">
+    <div class=" footer-div inline">
         <h3>Newsletter</h3>
-        <p>Subscribe to newsletter.</p>
-        <form action="psot">
+        <p>Subscribe to newsletter</p>
+        <form action="post">
             <input type="text" name="Email" id="sub" placeholder="Email">
         </form>
         <button>Subscribe</button>
     </div>
 </footer>
-<div class="copyright">
-    <p>Copyright &copy; 2016 Lipsum gallery. All rights reserved.</p>
-</div>
+    <div class="copyright">
+        <p >Copyright &copy; 2016 Lipsum gallery. All rights reserved.</p>
+    </div>
 </body>
 
 </html>

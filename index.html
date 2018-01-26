@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lipsum Gallery </title>
-    <link rel="stylesheet" href="source\style\index.css">
+    <link rel="stylesheet" href="source/style/index.css">
+    <link rel="stylesheet" href="source/style/footer.css">
     <style>
         .hero h1 {
-            margin-left: 35%;
             padding-top: 5%;
         }
     </style>
@@ -18,23 +18,30 @@
 <body>
     <div class="container">
         <div class="upperHeader">
-            <img src="source\media\icon\internet.png" alt="earth" style="width:20px; height:20px; margin-left:2%;">
-            <span style="margin-left:1%;">Language</span>
-            <a href="https://www.facebook.com/">
-                <img src="source\media\icon\facebook.png" alt="facebook icon" style="margin-left:80%">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="source\media\icon\instagram.png" alt="instagram icon">
-            </a>
+            <div class="header1" >
+                <img src="source/media/icon/internet.png" alt="earth" style="width:20px; height:20px; padding-left:2%;">
+                <span style="margin-left:1%;">Language</span>
+            </div>
+            <div class="header2">
+                <a href="https://www.facebook.com/" class="facebookIcon">
+                    <img src="source/media/icon/facebook.png" alt="facebook icon">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="source/media/icon/instagram.png" alt="instagram icon" class="instaIcon">
+                </a>
+            </div>
         </div>
-        <header>
-
-            <h2>Lipsum Gallery</h2>
-            <input type="text" placeholder="Search" id="searchBar" class="marginfromtop" style="margin-left:20%;">
-            <a id="icon" href="#" class="marginfromtop">
-                <img src="source\media\icon\magnifying-glass.png" alt="search icon" id="searchIcon">
-            </a>
-            <div class="headerButton marginfromtop" style="margin-left:10%;">
+        <header class="mainHeader">
+            <div style="margin-left:2%;">
+                <h2>Lipsum Gallery</h2>
+            </div>
+            <div class="searchDiv">
+                <input type="text" placeholder="Search" id="searchBar" class="marginfromtop">
+                <a id="icon" href="#" class="marginfromtop">
+                    <img src="source/media/icon/magnifying-glass.png" alt="search icon" id="searchIcon">
+                </a>
+            </div>
+            <div class="headerButton marginfromtop">
                 <a href="index.html" style="color:blue;">Home*</a>
             </div>
             <div class="headerButton marginfromtop">
@@ -58,19 +65,19 @@
         </div>
         <div class="belowHero">
             <figure>
-                <img src="source\media\pictures\images4.duckduckgo.com.jpg" alt="image" class="circle">
+                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="image" class="circle">
                 <figcaption>lipsum</figcaption>
             </figure>
             <figure>
-                <img src="source\media\pictures\images4.duckduckgo.com.jpg" alt="image" class="circle">
+                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="image" class="circle">
                 <figcaption>lipsum</figcaption>
             </figure>
             <figure>
-                <img src="source\media\pictures\images4.duckduckgo.com.jpg" alt="image" class="circle">
+                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="image" class="circle">
                 <figcaption>lipsum</figcaption>
             </figure>
             <figure>
-                <img src="source\media\pictures\images4.duckduckgo.com.jpg" alt="image" class="circle">
+                <img src="source/media/pictures/images4.duckduckgo.com.jpg" alt="image" class="circle">
                 <figcaption>lipsum</figcaption>
             </figure>
         </div>
@@ -102,10 +109,10 @@
                         tenetur voluptatum sapiente?</p>
                 </div>
             </div>
-            <a href="#" style="margin-left:75%;">Click here for more stories</a>
+            <a href="#" style="margin-left:75%; color:blue;">Click here for more stories</a>
         </article>
         <div class="belowArticle">
-            <span class="BA">Need a
+            <span>Need a
                 <b>quote</b>?
                 <b>Contact</b> us at
                 <a href="#" style="color:black;">Contact@example.com</a>
@@ -114,14 +121,14 @@
 
     </div>
     <footer>
-        <div class=" footer-div">
+        <div class=" footer-div inline">
             <h3>About Lipsum Gallery</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit inventore assumenda amet velit aperiam quas doloremque,
                 asperiores sit sed voluptates nisi soluta ullam alias nulla, nam impedit atque, quaerat voluptatibus.
                 <a href="#" style="color:blue; text-decoration: none;">Read more</a>
             </p>
         </div>
-        <div class=" footer-div">
+        <div class=" footer-div" style="text-align: center;">
             <h3 class=" h3-align">Services</h3>
             <ul>
                 <li>
@@ -138,7 +145,7 @@
                 </li>
             </ul>
         </div>
-        <div class=" footer-div">
+        <div class=" footer-div" style="text-align: center;">
             <h3 class=" h3-align">Links</h3>
             <ul>
                 <li>
@@ -152,17 +159,17 @@
                 </li>
             </ul>
         </div>
-        <div class=" footer-div">
+        <div class=" footer-div inline">
             <h3>Newsletter</h3>
-            <p>Subscribe to newsletter.</p>
-            <form action="psot">
+            <p>Subscribe to newsletter</p>
+            <form action="post">
                 <input type="text" name="Email" id="sub" placeholder="Email">
             </form>
             <button>Subscribe</button>
         </div>
     </footer>
     <div class="copyright">
-        <p style="padding-left:40%;">Copyright &copy; 2016 Lipsum gallery. All rights reserved.</p>
+        <p>Copyright &copy; 2016 Lipsum gallery. All rights reserved.</p>
     </div>
 </body>
 

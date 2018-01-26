@@ -1,18 +1,55 @@
+section>h2 {
+    text-align: center;
+}
 
-.section-heading{
+.section-heading {
     width: 100%;
 }
 
-.section-main-wrap{
-display: flex;
+.section-main-wrap {
+    display: flex;
+    text-align: center;
 }
 
-.section-wrap1{
+.section-wrap1 {
     margin-left: 2%;
-    width: 60%;
+    width: auto;
 }
 
-.section-wrap2{
+.section-wrap2 {
     width: 90%;
     margin: auto;
+}
+
+.story-pic {
+    width: 350px;
+    height: 350px;
+    margin-left: 6%;
+}
+
+@media (max-width: 1040px) {
+    .story-pic {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 750px) {
+    .story-pic {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 660px) {
+    .story-pic {
+        margin: auto;
+    }
+    .section-main-wrap {
+        flex-direction: column;
+    }
+    .section-wrap1,
+    .section-wrap2 {
+        width: auto;
+    }
 }
