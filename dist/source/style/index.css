@@ -1,3 +1,14 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+        border: 1px solid black;
+    }
+
     a:hover {
         color: orange;
     }
@@ -7,7 +18,7 @@
         /* flex-direction: row; */
         justify-content: space-between;
         height: 50px;
-        border: 2px solid darkgrey;
+        border: 1px solid darkgrey;
     }
 
     .header1 {
@@ -34,7 +45,7 @@
     .mainHeader {
         background: rgba(211, 211, 211, 0.651);
         height: 70px;
-        border: 2px solid darkgrey;
+        border: 1px solid darkgrey;
         /* position: relative; */
         display: flex;
         flex-wrap: wrap;
@@ -69,6 +80,7 @@
         height: 30px;
         width: 90%;
         border-right: none;
+        border: 1px solid black;
         /* border: blue; */
     }
 
@@ -81,7 +93,7 @@
         height: 34px;
         background: rgba(255, 255, 255, 0);
         border-left: none;
-        margin-left: -24px;
+        margin-left: -28px;
         /* margin-top: 0.5px; */
     }
 
@@ -118,6 +130,19 @@
         margin-top: 2%;
     }
 
+    article {
+        position: relative;
+    }
+
+    .upload {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        right: 1%;
+        top: 1%;
+        background: rgba(211, 211, 211, 0.705);
+    }
+
     .wrap {
         width: 100%;
         height: 70%;
@@ -130,9 +155,11 @@
         width: 35%;
         height: 20%;
     }
-    .para > p{
+
+    .para>p {
         display: inline;
     }
+
     .belowArticle {
         height: 80px;
         background-color: lightgray;

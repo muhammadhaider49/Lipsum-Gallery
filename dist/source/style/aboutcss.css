@@ -26,6 +26,9 @@ section>h2 {
     height: 350px;
     margin-left: 6%;
 }
+section {
+    position: relative;
+}
 
 @media (max-width: 1040px) {
     .story-pic {

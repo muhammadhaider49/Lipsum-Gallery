@@ -16,3 +16,7 @@
 .input-width{
     width: 30%;
 }
+
+section {
+    position: relative;
+}
